@@ -1,0 +1,31 @@
+{
+	"amount_header": "Amount",
+	"account_type_header": "Account Type",
+	"account_types": {
+		"revenue": "Revenue",
+		"expense": "Expense"
+	},
+	"grouping_headers": ["Account Type", "Fiscal Year Range"],
+	"groups": [
+		{
+			"values": ["Revenue", "2019"],
+			"hierarchy":[
+				"Fund",
+				"Service",
+				"Department",
+				"Program"
+			],
+			"filename": "Proposed.Revenue.2019.json"
+		},
+		{
+			"values": ["Expense", "2019"],
+			"hierarchy":[
+				"Fund",
+				"Service",
+				"Department",
+				"Program"
+			],
+			"filename": "Proposed.Expense.2019.json"
+		}
+	]
+}
